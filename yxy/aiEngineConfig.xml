@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+    <!--游戏助手体姿-->
+    <app_feature name="com.coloros.gamespace_game_support_body_sensation" args="boolean:true"/>
+</extend_features>
+<!-- Timestamp 2024-10-19T12:58:01 #244812 -->
