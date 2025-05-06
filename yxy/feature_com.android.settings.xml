@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- control the preview mask view for aon face enrolling -->
+    <app_feature name="com.android.settings.colored_mask_for_aon_face_enroll" />
+    <app_feature name="com.android.settings.processor_detail" />
+    <app_feature name="com.android.settings.processor_detail_gen2" />
+   
+     <app_feature name="android.hardware.se.omapi.ese" />
+     <app_feature name="com.oplus.hardware.secure_element.nfc_ese" />
+     <app_feature name="com.oplus.hardware.secure_element.ese2" />
+</extend_features>
