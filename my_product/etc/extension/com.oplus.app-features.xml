@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="os.tool.onetrace.performance.ottrace.consumer.type" args="String:RING_BUFFER"/>
+	<app_feature name="com.android.launcher.gc_when_user_present" args="boolean:true"/>
+	<app_feature name="com.oplus.mediaturbo.service"/>
+	<app_feature name="com.android.settings.network_access_permission"/>
+	<app_feature name="os.carlink.ccc.rke" args="boolean:true"/>
+	<app_feature name="com.oplus.metis.fire_delay_ms" args="int:60000"/>
+	<app_feature name="os.charge.settings.wirelesscharge.support"/>
+	<app_feature name="oplus.power.onwirelesscharger.support"/>
+	<app_feature name="oplus.power.wirelesschgwhenwired.support"/>
+	<app_feature name="com.oplus.systemui.not_show_guide_dialog"/>
+	<app_feature name="os.charge.settings.wirelesschargingcoil.position" args="float:0.408"/>
+	<app_feature name="os.graphic.gallery.os15_secrecy" args="boolean:true"/>
+	<app_feature name="os.charge.settings.wirelesscharging.power" args="int:50"/>
+	<app_feature name="com.oplus.directservice.aitoolbox_enable" args="boolean:true"/>
+    <app_feature name="com.android.launcher.DEVICE_LEVEL_HIGH"/>
+    <app_feature name="com.android.launcher.folder_content_recommend_disable"/>
+	<app_feature name="com.android.launcher.SHOW_REDTEAMOBILE_ROAMING"/>
+	<app_feature name="com.android.launcher.REQUEST_ADD_SHORTCUT"/>
+    <app_feature name="com.oplus.gesture.camera_space_gesture_support"/>
+    <app_feature name="com.android.systemui.aod_notification_infor_text"/>
+	<app_feature name="com.oplus.gesture.intelligent_perception"/>
+    <app_feature name="com.oplus.eyeprotect.ai_intelligent_eye_protect_support"/>
+    <app_feature name="com.oplus.mediaturbo.service"/>
+    <app_feature name="com.oplus.smartsidebar.space.roulette.support"/>
+    <app_feature name="com.oplus.smartsidebar.space.roulette.bootreg"/>
+	<app_feature name="feature.hottouch.anim.support"/>
+	<app_feature name="com.android.incallui.share_screen_and_touch_cmd_support" args="boolean:true"/>
+	<app_feature name="com.coloros.gamespace_game_support_fourd_vibration"/>
+	<app_feature name="com.coloros.colordirectservice.cm_enable" args="boolean:true"/>
+	<app_feature name="os.graphic.gallery.os15_secrecy" args="boolean:true"/>
+	<app_feature name="com.coloros.gamespace_game_support_body_sensation" args="boolean:true"/>
+	<app_feature name="com.oplus.mediaturbo.tencent_video_enduring" args="boolean:true"/>
+	<app_feature name="com.oplus.gallery3d.rm_ai_deblur_support" args="boolean:true"/>
+	<app_feature name="oplus_skip_remove_recent_task">
+    <StringList args="com.newcall.miniappimpl.ui.MiniAppActivity0~9"/>
+    <app_feature name="com.oplus.phonemanager.ai_voice_detect" args="int:1"/>
+	<app_feature name="com.oplus.mediaturbo.tencent_meeting" args="boolean:true"/>
+	<app_feature name="com.oplus.games.show_bypass_charging_when_gameapps" args="boolean:true"/>
+	<app_feature name="com.oplus.mediaturbo.weixin_live_beauty" args="boolean:true"/>
+	<app_feature name="com.oplus.mediaturbo.wechat_live_beauty" args="boolean:true"/>
+	<app_feature name="com.oplus.infocollection.screen.recognition"/>
+    <oplus-feature name="oplus.software.display.ai_eyeprotect_v1_support"/>
+    <app_feature name="com.oplus.wallpapers.livephoto_wallpaper" args="boolean:true"/>
+    <app_feature name="com.oplus.battery.phoneusage.screenon.hide" args="boolean:true"/>
+    <app_feature name="com.oplus.mediaturbo.game_live" args="boolean:true"/>
+    <app_feature name="com.oplus.screenrecorder.area_record" args="boolean:true"/>
+    <app_feature name="oplus.aod.wakebyclick.support" args="boolean:true"/>
+    <oplus-feature name="oplus.software.display.game_color_enhance_1.0"/> 
+    	<app_feature name="com.android.launcher.DISABLE_USE_NEW_LAYOUT"/>
+	<app_feature name="com.oplus.mediacontroller.fluidConfig" args="String:{&quot;statusbar_enable_default&quot;:0}"/>
+	<app_feature name="com.coloros.colordirectservice.cm_enable" args="boolean:true"/>
+	<app_feature name="os.personalization.wallpaper.live.ripple.enable" args="boolean:true"/>
+	<app_feature name="os.personalization.flip.agile_window.enable"/>
+	<app_feature name="com.oplus.smartsidebar.space.roulette.support"/>
+
+	<app_feature name="com.oplus.smartsidebar.space.roulette.bootreg"/>
+	<app_feature name="com.oplus.infocollection.screen.recognition"/>
+	<app_feature name="com.oplus.gesture.camera_space_gesture_support"/>
+	<app_feature name="com.oplus.eyeprotect.ai_intelligent_eye_protect_support"/>
+	<app_feature name="com.android.systemui.aod_notification_infor_text"/>
+	<app_feature name="com.oplus.mediacontroller.fluidConfig" args="String:{&quot;statusbar_enable_default&quot;:1}"/>
+	<app_feature name="com.oplus.battery.support.gt_open_gamecenter"/>
+	<app_feature name="com.android.settings.device_rm"/>
+	<app_feature name="feature.support.game.AI_PLAY"/>
+	<app_feature name="com.oplus.exserviceui.feature_zoom_drag"/>
+	<app_feature name="com.oplus.software.support.mini_capsule"/>
+	<app_feature name="com.oplus.mediaturbo.service"/>
+	<app_feature name="com.oplus.note.aigc.ai_rewrtie.support" args="boolean:true"/>
+	<app_feature name="com.oplus.mediaturbo.game_live"/>
+	<app_feature name="oplus.aod.wakebyclick.support"/>
+	<app_feature name="com.oplus.screenrecorder.area_record" args="boolean:true"/>
+</extend_features>

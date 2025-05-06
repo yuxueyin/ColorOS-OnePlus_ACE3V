@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20240201</version>
+    <toggle>1</toggle>
+    <features>
+        <feature name="BindCore" enable="1">
+            <!-- big core index, start from 0 -->
+            <bigcore_id>3</bigcore_id>
+            <bigcore_id>4</bigcore_id>
+            <bigcore_id>5</bigcore_id>
+            <bigcore_id>6</bigcore_id>
+            <bigcore_id>7</bigcore_id>
+        </feature>
+
+        <feature name="GameEdr" enable="1">
+        </feature>
+
+        <feature name="LocalHdr" enable="1">
+            <support10bit>enable</support10bit>
+        </feature>
+
+        <feature name="HdrVision" enable="1">
+            <timeout_s>60</timeout_s>
+            <scale>6</scale>
+            <timerEnable>1</timerEnable>
+            <application name="com.tencent.qqlive"></application>
+            <application name="tv.danmaku.bili" player="tv.danmaku.bili" scale="4"></application>
+            <application name="com.youku.phone"></application>
+            <application name="com.qiyi.video.lite"></application>
+            <application name="com.qiyi.video"></application>
+            <application name="com.sina.weibo" scale="4"></application>
+            <application name="com.google.android.youtube"></application>
+        </feature>
+
+        <feature name="curtain" enable="1">
+          <application name="com.tencent.qqlive">
+            <scene type="FuzzyLayer">
+              <layer>VideoDetailActivity</layer>
+              <action>
+                <mode>SurfaceView</mode>
+              </action>
+            </scene>
+          </application>
+          <application name="com.youku.phone">
+            <scene type="FuzzyLayer">
+              <layer>DetailActivity</layer>
+              <action>
+                <mode>SurfaceView</mode>
+              </action>
+            </scene>
+          </application>
+          <application name="tv.danmaku.bili">
+            <scene type="FuzzyLayer">
+              <layer>VideoDetailsActivity</layer>
+              <action>
+                <mode>SurfaceView</mode>
+              </action>
+            </scene>
+            <scene type="FuzzyLayer">
+              <layer>LiveRoomActivityV3</layer>
+              <action>
+                <mode>SurfaceView</mode>
+              </action>
+            </scene>
+            <scene type="FuzzyLayer">
+              <layer>BangumiDetailActivityV3</layer>
+              <action>
+                <mode>SurfaceView</mode>
+              </action>
+            </scene>
+            <scene type="FuzzyLayer">
+              <layer>StoryVideoActivity</layer>
+              <action>
+                <mode>SurfaceView</mode>
+              </action>
+            </scene>
+            <scene type="FuzzyLayer">
+              <layer>UnitedBizDetailsActivity</layer>
+              <action>
+                <mode>SurfaceView</mode>
+              </action>
+            </scene>
+            <scene type="FuzzyLayer">
+              <layer>StoryTransparentActivity</layer>
+              <action>
+                <mode>SurfaceView</mode>
+              </action>
+            </scene>
+          </application>
+        </feature>
+
+        <feature name="Sharpness" enable="1">
+            <application name="com.duowan.mobile">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>2</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.ss.android.ugc.aweme">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>2</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.ss.android.ugc.aweme.lite">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>2</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.ss.android.ugc.live">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>2</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.kuaishou.nebula">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>2</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.smile.gifmaker">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>2</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.tencent.weishi">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>2</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.baidu.haokan">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>2</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.ss.android.article.news">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.ss.android.article.lite">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.tencent.news">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.hipu.yidian">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.jifen.qukan">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.sina.news">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.kmxs.reader">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.shuqi.controller">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.xs.fm">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.heytap.reader">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.heytap.book">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.tencent.weread">
+                <scene type="Application">
+                    <action>
+                        <featureId>5</featureId>
+                        <featureValuesOn>3</featureValuesOn>
+                        <featureValuesOff>1</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.qiyi.video">
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.qiyi.video/org.iqiyi</layer>
+                    <layer>com.qiyi.video/org.iqiyi.video</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.qiyi.video/org.iqiyi</layer>
+                    <layer>SurfaceView[com.qiyi.video/org.iqiyi</layer>
+                    <layer>com.qiyi.video/org.iqiyi.video</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>Background for SurfaceView[com.qiyi</layer>
+                    <layer>SurfaceView[com.qiyi.video/org.iqiyi</layer>
+                    <layer>com.qiyi.video/org.iqiyi.video</layer>
+                    <action>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>Background for SurfaceView[com.qiyi</layer>
+                    <layer>SurfaceView[com.qiyi.video/org.iqiyi</layer>
+                    <layer>SurfaceView[com.qiyi.video/org.iqiyi</layer>
+                    <layer>com.qiyi.video/org.iqiyi.video</layer>
+                    <action>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.youku.phone">
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.youku.phone/com.youku</layer>
+                    <layer>com.youku.phone/com.youku.ui</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.youku.phone/com.youku</layer>
+                    <layer>SurfaceView[com.youku.phone/com.youku</layer>
+                    <layer>com.youku.phone/com.youku.ui</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>Background for SurfaceView[com.youku</layer>
+                    <layer>SurfaceView[com.youku.phone/com.youku</layer>
+                    <layer>com.youku.phone/com.youku.ui</layer>
+                    <action>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>Background for SurfaceView[com.youku</layer>
+                    <layer>SurfaceView[com.youku.phone/com.youku</layer>
+                    <layer>SurfaceView[com.youku.phone/com.youku</layer>
+                    <layer>com.youku.phone/com.youku.ui</layer>
+                    <action>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.heytap.yoli">
+                <scene type="ExactLayer">
+                    <layer>Background for SurfaceView[com.heytap</layer>
+                    <layer>com.heytap.yoli/com.heytap</layer>
+                    <action>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.sohu.sohuvideo">
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.sohu.sohuvideo/com.sohu</layer>
+                    <layer>com.sohu.sohuvideo/com.sohu</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.duowan.kiwi">
+                <scene type="ExactLayer">
+                    <layer>com.duowan.kiwi/com.duowan</layer>
+                    <layer>SurfaceView[com.duowan.kiwi/com.duowan</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.duowan.kiwi/com.duowan</layer>
+                    <layer>SurfaceView[com.duowan.kiwi/com.duowan</layer>
+                    <layer>com.duowan.kiwi/com.duowan</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.tencent.qqlive">
+                <scene type="ExactLayer">
+                    <layer>Background for SurfaceView[com.tencent</layer>
+                    <layer>SurfaceView[com.tencent.qqlive</layer>
+                    <layer>com.tencent.qqlive/com.tencent</layer>
+                    <action>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>Background for SurfaceView[com.tencent</layer>
+                    <layer>SurfaceView[com.tencent.qqlive</layer>
+                    <layer>SurfaceView[com.tencent.qqlive</layer>
+                    <layer>com.tencent.qqlive/com.tencent</layer>
+                    <action>
+                        <targetLayerIndex>1</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.hunantv.imgo.activity">
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.hunantv.imgo.activity</layer>
+                    <layer>com.hunantv.imgo.activity/com.mgtv</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="tv.danmaku.bili">
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[tv.danmaku.bili</layer>
+                    <layer>tv.danmaku.bili</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[tv.danmaku.bili</layer>
+                    <layer>SurfaceView[tv.danmaku.bili</layer>
+                    <layer>tv.danmaku.bili</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.cmcc.cmvideo">
+                <scene type="ExactLayer">
+                    <layer>com.cmcc.cmvideo/com.cmvideo</layer>
+                    <layer>com.cmcc.cmvideo/com.cmvideo</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="com.ss.android.article.video">
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[com.ss.android.article.video</layer>
+                    <layer>com.ss.android.article.video/com</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+
+            <application name="air.tv.douyu.android">
+                <scene type="ExactLayer">
+                    <layer>SurfaceView[air.tv.douyu.android</layer>
+                    <layer>air.tv.douyu.android</layer>
+                    <action>
+                        <targetLayerIndex>0</targetLayerIndex>
+                        <featureId>20</featureId>
+                        <featureValuesOn>1</featureValuesOn>
+                        <featureValuesOff>0</featureValuesOff>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+        
+        <feature name="OplusDolbyVision" enable="1">
+            <timeout_s>60</timeout_s>
+            <scale>6</scale>
+            <timerEnable>1</timerEnable>
+            <needDimming>1</needDimming>
+            <fullScreenOnly>0</fullScreenOnly>
+            <application name="com.qiyi.video.lite"/>
+            <application name="com.qiyi.video"/>
+            <application name="com.sina.weibo" scale="4"/>
+            <application name="com.sina.weibo.image" scale="4"/>
+            <application name="tv.danmaku.bili" scale="4" player="tv.danmaku.bili:ijkservice"></application>
+        </feature>
+
+        <feature name="OplusDEE" enable="1">
+          <DC>enable</DC>
+          <globalLTM>enable</globalLTM>
+          <application name="com.oneplus.gallery">
+            <scene type="Application">
+              <action>
+                <mode>AD</mode>
+              </action>
+            </scene>
+          </application>
+          <application name="com.heytap.yoli">
+            <scene type="Application">
+              <action>
+                <mode>AD</mode>
+              </action>
+            </scene>
+          </application>
+          <application name="com.coloros.video">
+            <scene type="Application">
+              <action>
+                <mode>AD</mode>
+              </action>
+            </scene>
+          </application>
+          <application name="com.coloros.gallery3d">
+            <scene type="Application">
+              <action>
+                <mode>AD</mode>
+              </action>
+            </scene>
+          </application>
+          <application name="com.oplus.camera">
+            <scene type="Application">
+              <action>
+                <mode>AD</mode>
+              </action>
+            </scene>
+          </application>
+        </feature>
+    </features>
+</filter-conf>

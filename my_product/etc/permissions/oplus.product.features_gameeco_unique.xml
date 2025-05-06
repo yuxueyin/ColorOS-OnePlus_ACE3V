@@ -1,0 +1,20 @@
+<oplus-config>
+    <!-- ZhangChunfeng @GAMEECO.COOLEFFECT.EDR, 2024/01/31, Add for edr feature start -->
+    <oplus-feature name="oplus.software.display.game.hdr3.0_enable"/>
+    <!-- end -->
+    <!-- ZhangChunfeng @GAMEECO.COOLEFFECT.DAPR, 2024/01/31, Add for dapr feature start -->
+    <oplus-feature name="oplus.software.display.game.dapr_enable"/>
+    <!-- end -->
+    <!-- Xueliang @GAMEECO.COOLEFFECT.PM, 2024/02/28, Add for play mode feature start -->
+    <oplus-feature name="oplus.software.game.playmode_enable"/>
+    <!-- end -->
+    <!-- ZhangChunfeng @GAMEECO.COOLEFFECT.OFRC, 2024/06/26, Add for ofrc feature start -->
+    <oplus-feature name="oplus.software.display.game.ofrc_enable"/>
+    <!-- end -->
+    <!-- ZhangChunfeng @GAMEECO.COOLEFFECT.OSR, 2024/06/26, Add for osr feature start -->
+    <oplus-feature name="oplus.software.display.game.osr_enable"/>
+    <!-- end -->
+    <!-- Xiaozhenyu @GAMEECO.COOLEFFECT.HM, 2024/12/16, Add for hummingbird feature start -->
+    <oplus-feature name="oplus.software.game.hummingbird"/>
+    <!-- end -->
+</oplus-config>

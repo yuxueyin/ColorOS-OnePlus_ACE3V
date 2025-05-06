@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20241031</version>
+    <filter-name>display_frc_white_list</filter-name>
+
+    <!-- 高帧率模式 (FRC) 白名单 -->
+    <mConfigActivity>com.tencent.tmgp.pubgmhd/com.epicgames.ue4.GameActivity</mConfigActivity> <!-- 和平精英 -->
+    <mConfigActivity>com.miHoYo.GenshinImpact/com.miHoYo.GetMobileInfo.MainActivity</mConfigActivity> <!-- 原神 -->
+    <mConfigActivity>com.miHoYo.ys.bilibili/com.miHoYo.GetMobileInfo.MainActivity</mConfigActivity>
+    <mConfigActivity>com.miHoYo.Yuanshen/com.miHoYo.GetMobileInfo.MainActivity</mConfigActivity>
+    <mConfigActivity>com.miHoYo.ys.mi/com.miHoYo.GetMobileInfo.MainActivity</mConfigActivity>
+    <mConfigActivity>com.miHoYo.hkrpg/com.mihoyo.combosdk.ComboSDKActivity</mConfigActivity> <!-- 崩坏：星穹铁道 -->
+    <mConfigActivity>com.tencent.jkchess/com.tencent.jkchess.ApolloZGame</mConfigActivity> <!-- 金铲铲之战 -->
+    <mConfigActivity>com.tencent.mf.uam/com.epicgames.ue4.GameActivity</mConfigActivity> <!-- 暗区突围 -->
+    <mConfigActivity>com.netease.party.nearme.gamecenter/com.netease.party.Client</mConfigActivity> <!-- 蛋仔派对 -->
+    <mConfigActivity>com.tencent.letsgo/com.epicgames.ue4.GameActivityExt</mConfigActivity> <!-- 元梦之星 -->
+    <mConfigActivity>com.kurogame.haru.hero/com.haru.herousdk.MainActivity</mConfigActivity> <!-- 战双帕弥什（官服） -->
+    <mConfigActivity>com.tencent.tmgp.cod/com.tencent.tmgp.cod.CODMainActivity</mConfigActivity> <!-- 使命召唤手游 -->
+    <mConfigActivity>com.riotgames.league.wildrift/com.tencent.lolm.lgame</mConfigActivity> <!-- 英雄联盟手游 -->
+    <mConfigActivity>com.tencent.tmgp.sgame/com.tencent.tmgp.sgame.SGameActivity</mConfigActivity> <!-- 王者荣耀（官服） -->
+    <mConfigActivity>com.tencent.tmgp.dfm/com.epicgames.ue4.GameActivity</mConfigActivity> <!-- 三角洲行动 -->
+    <!-- AI超分辨率 (AISR) 白名单 -->
+    <mConfigAISRPackage type="1">com.miHoYo.GenshinImpact</mConfigAISRPackage> <!-- 原神 -->
+    <mConfigAISRPackage type="1">com.miHoYo.ys.bilibili</mConfigAISRPackage>
+    <mConfigAISRPackage type="1">com.miHoYo.Yuanshen</mConfigAISRPackage>
+    <mConfigAISRPackage type="1">com.miHoYo.ys.mi</mConfigAISRPackage>
+    <mConfigAISRPackage type="1">com.miHoYo.Nap</mConfigAISRPackage> <!-- 绝区零 -->
+    <mConfigAISRPackage type="1">com.tencent.tmgp.dnf</mConfigAISRPackage> <!-- DNF手游 -->
+    <mConfigAISRPackage type="1">com.kurogame.haru.hero</mConfigAISRPackage> <!-- 战双帕弥什 -->
+    <mConfigAISRPackage type="1">com.tencent.tmgp.sgame</mConfigAISRPackage> <!-- 王者荣耀 -->
+    <mConfigAISRPackage type="1">com.netease.sky</mConfigAISRPackage> <!-- 光遇（低强度） -->
+    <mConfigAISRPackage type="1">com.tencent.tmgp.dfm</mConfigAISRPackage> <!-- 三角洲行动 -->
+</filter-conf>

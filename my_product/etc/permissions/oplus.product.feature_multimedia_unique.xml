@@ -1,0 +1,42 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.display.dynamic_fps_switch" />
+    <oplus-feature name="oplus.software.display.multi_device_decrease_refresh_rate"/>
+    <oplus-feature name="oplus.software.display.refreshrate_default_smart"/>
+
+    <oplus-feature name="oplus.software.haptic_vibrator_v1.support"/>
+    <!-- Zhixin.Zhang@MULTIMEDIA.MEDIASERVER, 2023/4/5, Add for audio route strategy start -->
+    <oplus-feature name="oplus.software.audio.route_strategy"/>
+    <!-- Zhixin.Zhang@MULTIMEDIA.MEDIASERVER, 2023/4/5, Add for audio route strategy end -->
+    <!-- Rui.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2021/7/29. Add for spl limit -->
+    <oplus-feature name="oplus.software.audio.spl_limit_support"/>
+    <!-- Zhixin.Zhang@MULTIMEDIA.AUDIOSERVER.EFFECT.2023/4/10. Add for speaker reverse start-->
+    <oplus-feature name="oplus.software.audio.dualspk_support"/>
+    <!-- Yao.Yongming@MULTIMEDIA.AUDIOSERVER.EFFECT.2023/4/10. Add for speaker reverse end-->
+    <!-- Zehua.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/15. Add for media control -->
+    <oplus-feature name="oplus.software.audio.media_control"/>
+    <!-- #endif /* OPLUS_FEATURE_OPLUS_MEDIA_CONTROL */ -->
+    <!-- Tansen@MULTIMEDIA.AUDIOSERVER.FRAMEWORK, 2022/06/21, add for alert slider -->
+    <oplus-feature name="oplus.software.audio.alert_slider" />
+    <!-- zhanglixia, 2023/05/30, Add for bluetooth volume sync -->
+    <oplus-feature name="oplus.software.bluetooth_volume_sync"/>
+    <!-- Rui.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2021/7/29. Add for hearing health feature -->
+    <oplus-feature name="oplus.software.audio.hearing_health_support"/>
+    <!-- Taber.huang@MULTIMEDIA.DISPLAY.Driver 2023/09/15  Add for AP scaler-->
+    <oplus-feature name="oplus.software.display.resolution_switch_support" />
+    <oplus-feature name="oplus.software.display.wm_size_resolution_switch_support" />
+    <oplus-feature name="oplus.software.app_resolution_switch" />
+    <oplus-feature name="oplus.software.display.resolution_switch_disableauto_support" />
+    <!-- Xiaozhenyu@MULTIMEDIA.VIBRATE, 2024/01/23, Add for FourD Vibrate feature start -->
+    <oplus-feature name="oplus.software.haptic_vibrator_v2.support"/>
+    <!-- Xiaozhenyu@MULTIMEDIA.VIBRATE, 2024/01/23, Add for FourD Vibrate feature end-->
+    <!-- Liurongbo@MULTIMEDIA.DISPLAY.SF, 2023/12/14, Add for GCP feature -->
+    <oplus-feature name="oplus.software.display.game_color_plus_v2_support" />
+    <!-- Ruihan.Xiao@MULTIMEDIA.AUDIODRIVER, 2023/12/05, Add for lvacfs surround record -->
+    <oplus-feature name="oplus.software.video.surround_record_support"/>
+    <!-- #ifdef OPLUS_FEATURE_EAR_PROTECTION -->
+    <!-- Taber.huang@MULTIMEDIA.DISPLAY.LCD 2023/09/20  Add for sharpness-->
+    <oplus-feature name="oplus.software.display.sharpness_switch"/>
+    <!-- WangDong4@MULTIMEDIA.AUDIOSERVER.BASE, 2024/03/25, add for multi-application volume adjustment -->
+    <oplus-feature name="oplus.software.multi_app.volume.adjust.support"/>
+    <oplus-feature name="oplus.software.game.yuanshenvibration"/>
+</oplus-config>

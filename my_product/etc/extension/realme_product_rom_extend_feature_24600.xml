@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+
+    <app_feature name="com.android.settings.move_dc_to_develop"/>
+    <app_feature name="com.android.systemui.support.show_charging_wattage"/>
+    <!-- battery:smart charge -->
+    <app_feature name="com.oplus.battery.smart.charge.mode" args="int:2"/>
+    <!-- battery:life mode -->
+    <app_feature name="com.oplus.battery.life.mode.notificate" args="int:1"/>
+    <!-- battery:battery healthy -->
+    <app_feature name="os.charge.settings.batterysettings.batteryhealth"/>
+    <!-- battery:long protection -->
+    <app_feature name="os.charge.settings.longchargeprotection.ai"/>
+    <!-- gesture:intelligent perception switch-->
+    <app_feature name="com.oplus.gesture.intelligent_perception"/>
+    <!-- battery: gt open gamecenter -->
+    <app_feature name="com.oplus.battery.support.gt_open_gamecenter"/>
+    <!--AI gamespace-->
+    <app_feature name="feature.support.game.AI_PLAY"/>
+    <app_feature name="feature.support.game.AI_PLAY_version3"/>
+    <!--game hot touch-->
+    <app_feature name="feature.hottouch.anim.support"/>
+
+    <unavailable_app_feature name="com.oppo.launcher.LAUNCH_APP_QUICK_SPEED" />
+    <unavailable_app_feature name="com.android.launcher.LAUNCH_APP_QUICK_SPEED" />
+    <app_feature name="com.android.launcher.LAUNCH_APP_MODERATE_SPEED"/>
+    <app_feature name="oplus.software.support_blockable_animation"/>
+
+    <app_feature name="feature.super_app_alive.support_min_ram" args="int:12"/>
+    <app_feature name="feature.super_app_alive.support_flag" args="int:15"/>
+    <app_feature name="feature.super_alive_game.support" args="int:1"/>
+
+    <app_feature name="com.android.launcher.folder_content_recommend_disable"/>
+    <app_feature name="com.android.launcher.rm_disable_folder_footer_ad"/>
+    <app_feature name="oplus.software.vibration_custom"/>
+
+    <!-- Add the feature of minimum memory support -->
+    <app_feature name="com.android.launcher.minimum_memory_support" args="boolean:true"/>
+    <!-- gamespace assistkey-->
+    <app_feature name="feature.support.game.ASSIST_KEY"/>
+</extend_features>

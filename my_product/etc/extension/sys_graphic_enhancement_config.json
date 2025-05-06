@@ -1,0 +1,744 @@
+{
+    "version": 2025020801,
+    "feature": {
+        "colorx": {
+            "coolex_white_list": [
+                "com.tencent.tmgp.sgame",
+                "com.tencent.tmgp.sgamece",
+                "com.tencent.tmgp.pubgmhd",
+                "com.tencent.tmgp.projectg",
+                "com.netease.dwrg",
+                "com.netease.dwrg.nearme.gamecenter",
+                "com.tencent.lolm",
+                "com.netease.onmyoji.nearme.gamecenter"
+            ],
+            "ror_white_list": [
+                "com.tencent.tmgp.sgame",
+                "com.tencent.tmgp.pubgmhd",
+                "com.tencent.tmgp.sgamece",
+                "com.tencent.tmgp.projectg"
+            ],
+            "vrs_white_list": [
+                "com.tencent.tmgp.sgame",
+                "com.tencent.tmgp.sgamece",
+                "com.tencent.tmgp.pubgmhd",
+                "com.tencent.tmgp.projectg",
+                "com.miHoYo.hkrpg",
+                "com.miHoYo.hkrpg.bilibili",
+                "com.HoYoverse.hkrpgoversea",
+                "com.miHoYo.hkrpgcb",
+                "com.miHoYo.Yuanshen",
+                "com.miHoYo.ys.bilibili",
+                "com.miHoYo.GenshinImpact",
+                "com.miHoYo.ys.mi",
+                "com.miHoYo.yuanshencb",
+                "com.tencent.lolm",
+                "com.netease.sky.nearme.gamecenter",
+                "com.netease.sky"
+            ],
+            "edr3_white_list": [
+                "com.tencent.tmgp.sgame",
+                "com.tencent.tmgp.sgamece",
+                "com.tencent.tmgp.pubgmhd",
+                "com.tencent.tmgp.projectg",
+                "com.miHoYo.Yuanshen",
+                "com.miHoYo.ys.bilibili",
+                "com.miHoYo.GenshinImpact",
+                "com.miHoYo.ys.mi",
+                "com.miHoYo.yuanshencb",
+                "com.tencent.lolm",
+                "com.tencent.tmgp.cf",
+                "com.tencent.tmgp.speedmobile",
+                "com.netease.sky.nearme.gamecenter",
+                "com.netease.sky",
+                "com.miHoYo.hkrpg",
+                "com.miHoYo.hkrpg.bilibili",
+                "com.HoYoverse.hkrpgoversea",
+                "com.miHoYo.hkrpgcb",
+                "com.riotgames.league.wildrift",
+                "com.tencent.ig",
+                "com.mobile.legends",
+                "com.mobile.legends:UnityKillsMe",
+                "com.netease.nshm.nearme.gamecenter",
+                "com.netease.nshm",
+                "com.tencent.letsgo",
+                "com.tencent.KiHan",
+                "com.netease.party",
+                "com.netease.party.nearme.gamecenter",
+                "com.netease.dwrg",
+                "com.netease.dwrg.nearme.gamecenter",
+                "com.netease.aceracer.nearme.gamecenter",
+                "com.netease.aceracer",
+                "com.tencent.tmgp.gnyx",
+                "com.tencent.mf.uam",
+                "com.netease.mrzh",
+                "com.netease.mrzh.nearme.gamecenter",
+                "com.miHoYo.enterprise.NGHSoD",
+                "com.miHoYo.bh3.nearme.gamecenter",
+                "com.miHoYo.bh3.bilibili",
+                "com.hypergryph.arknights",
+                "com.aligames.kuang.kybc",
+                "com.aligames.kuang.kybc.nearme.gamecenter",
+                "com.tencent.tmgp.WePop",
+                "com.netease.sdsbq",
+                "com.netease.sdsbq.nearme.gamecenter",
+                "com.hermes.j1game",
+                "com.hermes.j1game.nearme.gamecenter"
+            ],
+            "dapr_white_list_v2": [
+                {
+                    "pkg": "com.miHoYo.Yuanshen",
+                    "extreme": 900,
+                    "extreme_60": 1080,
+                    "extreme_X60": 1264
+                },
+                {
+                    "pkg": "com.miHoYo.GenshinImpact",
+                    "extreme": 900,
+                    "extreme_60": 1080,
+                    "extreme_X60": 1264
+                },
+                {
+                    "pkg": "com.miHoYo.ys.bilibili",
+                    "extreme": 900,
+                    "extreme_60": 1080,
+                    "extreme_X60": 1264
+                },
+                {
+                    "pkg": "com.miHoYo.ys.mi",
+                    "extreme": 900,
+                    "extreme_60": 1080,
+                    "extreme_X60": 1264
+                },
+                {
+                    "pkg": "com.miHoYo.yuanshencb",
+                    "extreme": 900,
+                    "extreme_60": 1080,
+                    "extreme_X60": 1264
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpg",
+                    "extreme": 810,
+                    "extreme_60": 900,
+                    "extreme_X60": 1080
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpg.bilibili",
+                    "extreme": 810,
+                    "extreme_60": 900,
+                    "extreme_X60": 1080
+                },
+                {
+                    "pkg": "com.HoYoverse.hkrpgoversea",
+                    "extreme": 810,
+                    "extreme_60": 900,
+                    "extreme_X60": 1080
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpgcb",
+                    "extreme": 810,
+                    "extreme_60": 900,
+                    "extreme_X60": 1080
+                }
+            ],
+            "gcd_white_list": [
+                {
+                    "pkg": "com.miHoYo.Yuanshen"
+                },
+                {
+                    "pkg": "com.miHoYo.GenshinImpact"
+                },
+                {
+                    "pkg": "com.miHoYo.ys.bilibili"
+                },
+                {
+                    "pkg": "com.miHoYo.ys.mi"
+                },
+                {
+                    "pkg": "com.miHoYo.yuanshencb"
+                }
+            ],
+            "autoRunLockCoordinates": {
+                "3392:2400": {
+                    "x": [600.0, 870.0],
+                    "y": 530.0
+                },
+                "2780:1264": {
+                    "x": [450.0, 730.0],
+                    "y": 510.0
+                },
+                "2376:1080": {
+                    "x": [390.0, 630.0],
+                    "y": 435.0
+                },
+                "3168:1440": {
+                    "x": [580.0, 800.0],
+                    "y": 581.0
+                },
+                "2640:1216": {
+                    "x": [470.0, 536.0],
+                    "y": 485.0
+                }
+            },
+            "autoPickupCoordinates": {
+                "3392:2400": {
+                    "x": 1200.0,
+                    "y": 1696.0
+                },
+                "2780:1264": {
+                    "x": 632.0,
+                    "y": 1390.0
+                },
+                "2376:1080": {
+                    "x": 540.0,
+                    "y": 1188.0
+                },
+                "3168:1440": {
+                    "x": 720.0,
+                    "y": 1584.0
+                },
+                "2640:1216": {
+                    "x": 608,
+                    "y": 1320
+                }
+            },
+            "autoFreezeCoordinates": {
+                "3392:2400": {
+                    "x": 1200.0,
+                    "y": 2445.0
+                },
+                "2780:1264": {
+                    "x": 632.0,
+                    "y": 1977.0
+                },
+                "2376:1080": {
+                    "x": 540.0,
+                    "y": 1690.0
+                },
+                "3168:1440": {
+                    "x": 720.0,
+                    "y": 2217.0
+                },
+                "2640:1216": {
+                    "x": 593,
+                    "y": 1860.0
+                }
+            },
+            "ofrc_2_0_white_list": [
+                {
+                    "pkg": "com.miHoYo.Yuanshen"
+                },
+                {
+                    "pkg": "com.miHoYo.GenshinImpact"
+                },
+                {
+                    "pkg": "com.miHoYo.ys.bilibili"
+                },
+                {
+                    "pkg": "com.miHoYo.ys.mi"
+                },
+                {
+                    "pkg": "com.miHoYo.yuanshencb"
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpg"
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpg.bilibili"
+                },
+                {
+                    "pkg": "com.HoYoverse.hkrpgoversea"
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpgcb"
+                }
+            ],
+            "ofrc_1_0_white_list": [
+                {
+                    "pkg": "com.tencent.tmgp.pubgmhd"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.projectg"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.sgame"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.sgamece"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.speedmobile"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.cf"
+                },
+                {
+                    "pkg": "com.tencent.ig"
+                },
+                {
+                    "pkg": "com.pubg.krmobile"
+                },
+                {
+                    "pkg": "com.vng.pubgmobile"
+                },
+                {
+                    "pkg": "com.rekoo.pubgm"
+                },
+                {
+                    "pkg": "com.tencent.lolm"
+                },
+                {
+                    "pkg": "com.netease.aceracer.nearme.gamecenter"
+                },
+                {
+                    "pkg": "com.netease.aceracer"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.gnyx"
+                },
+                {
+                    "pkg": "com.netease.party.nearme.gamecenter"
+                },
+                {
+                    "pkg": "com.netease.party"
+                },
+                {
+                    "pkg": "com.tencent.letsgo"
+                },
+                {
+                    "pkg": "com.tencent.KiHan"
+                },
+                {
+                    "pkg": "skydragon.honorofkings"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.midaspay"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.kbinstaller"
+                },
+                {
+                    "pkg": "com.ngame.allstar.eu"
+                },
+                {
+                    "pkg": "com.garena.game.kgtw"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.dnf"
+                },
+                {
+                    "pkg": "com.p5x.nearme.gamecenter"
+                },
+                {
+                    "pkg": "com.pwrd.persona5x.laohu"
+                }
+            ],
+            "osr_1_0_white_list": [
+                {
+                    "pkg": "com.tencent.tmgp.pubgmhd"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.projectg"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.sgame"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.sgamece"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.speedmobile"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.cf"
+                },
+                {
+                    "pkg": "com.tencent.ig"
+                },
+                {
+                    "pkg": "com.pubg.krmobile"
+                },
+                {
+                    "pkg": "com.vng.pubgmobile"
+                },
+                {
+                    "pkg": "com.rekoo.pubgm"
+                },
+                {
+                    "pkg": "com.tencent.lolm"
+                },
+                {
+                    "pkg": "com.miHoYo.Yuanshen"
+                },
+                {
+                    "pkg": "com.miHoYo.ys.bilibili"
+                },
+                {
+                    "pkg": "com.miHoYo.GenshinImpact"
+                },
+                {
+                    "pkg": "com.miHoYo.ys.mi"
+                },
+                {
+                    "pkg": "com.miHoYo.yuanshencb"
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpg"
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpg.bilibili"
+                },
+                {
+                    "pkg": "com.HoYoverse.hkrpgoversea"
+                },
+                {
+                    "pkg": "com.miHoYo.hkrpgcb"
+                },
+                {
+                    "pkg": "com.netease.aceracer.nearme.gamecenter"
+                },
+                {
+                    "pkg": "com.netease.aceracer"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.gnyx"
+                },
+                {
+                    "pkg": "com.netease.party.nearme.gamecenter"
+                },
+                {
+                    "pkg": "com.netease.party"
+                },
+                {
+                    "pkg": "com.tencent.letsgo"
+                },
+                {
+                    "pkg": "com.tencent.KiHan"
+                },
+                {
+                    "pkg": "skydragon.honorofkings"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.midaspay"
+                },
+                {
+                    "pkg": "com.levelinfinite.sgameGlobal.kbinstaller"
+                },
+                {
+                    "pkg": "com.ngame.allstar.eu"
+                },
+                {
+                    "pkg": "com.garena.game.kgtw"
+                },
+                {
+                    "pkg": "com.tencent.tmgp.dnf"
+                },
+                {
+                    "pkg": "com.p5x.nearme.gamecenter"
+                },
+                {
+                    "pkg": "com.pwrd.persona5x.laohu"
+                }
+            ],
+            "rus_file": {
+                "sys_coolex_gamedata_yuanshen_vrs": [
+                    "com.miHoYo.Yuanshen",
+                    "com.miHoYo.GenshinImpact",
+                    "com.miHoYo.ys.bilibili",
+                    "com.miHoYo.ys.mi",
+                    "com.miHoYo.yuanshencb"
+                ],
+                "sys_coolex_gamedata_hkrpg_vrs": [
+                    "com.miHoYo.hkrpg",
+                    "com.miHoYo.hkrpg.bilibili",
+                    "com.HoYoverse.hkrpgoversea",
+                    "com.miHoYo.hkrpgcb"
+                ],
+                "sys_coolex_gamedata_yuanshen_dapr": [
+                    "com.miHoYo.Yuanshen",
+                    "com.miHoYo.GenshinImpact",
+                    "com.miHoYo.ys.bilibili",
+                    "com.miHoYo.ys.mi",
+                    "com.miHoYo.yuanshencb"
+                ],
+                "sys_coolex_gamedata_hkrpg_dapr": [
+                    "com.miHoYo.hkrpg",
+                    "com.miHoYo.hkrpg.bilibili",
+                    "com.HoYoverse.hkrpgoversea",
+                    "com.miHoYo.hkrpgcb"
+                ],
+                "sys_coolex_gamedata_yuanshen_memc": [
+                    "com.miHoYo.Yuanshen",
+                    "com.miHoYo.GenshinImpact",
+                    "com.miHoYo.ys.bilibili",
+                    "com.miHoYo.ys.mi",
+                    "com.miHoYo.yuanshencb"
+                ],
+                "sys_coolex_gamedata_hkrpg_memc": [
+                    "com.miHoYo.hkrpg",
+                    "com.miHoYo.hkrpg.bilibili",
+                    "com.HoYoverse.hkrpgoversea",
+                    "com.miHoYo.hkrpgcb"
+                ],
+                "sys_coolex_gamedata_yuanshen_rcas": [
+                    "com.miHoYo.Yuanshen",
+                    "com.miHoYo.GenshinImpact",
+                    "com.miHoYo.ys.bilibili",
+                    "com.miHoYo.ys.mi",
+                    "com.miHoYo.yuanshencb"
+                ],
+                "sys_coolex_gamedata_yuanshen_gcd": [
+                    "com.miHoYo.Yuanshen",
+                    "com.miHoYo.GenshinImpact",
+                    "com.miHoYo.ys.bilibili",
+                    "com.miHoYo.ys.mi",
+                    "com.miHoYo.yuanshencb"
+                ],
+                "sys_coolex_gamedata_yuanshen_hdr": [
+                    "com.miHoYo.Yuanshen",
+                    "com.miHoYo.GenshinImpact",
+                    "com.miHoYo.ys.bilibili",
+                    "com.miHoYo.ys.mi",
+                    "com.miHoYo.yuanshencb"
+                ],
+                "sys_coolex_gamedata_hkrpg_hdr": [
+                    "com.miHoYo.hkrpg",
+                    "com.miHoYo.hkrpg.bilibili",
+                    "com.HoYoverse.hkrpgoversea",
+                    "com.miHoYo.hkrpgcb"
+                ],
+                "sys_coolex_gamedata_wzry_hdr": [
+                    "com.tencent.tmgp.sgame",
+                    "com.tencent.tmgp.sgamece"
+                ],
+                "sys_coolex_gamedata_pubg_hdr": [
+                    "com.tencent.tmgp.pubgmhd",
+                    "com.tencent.tmgp.projectg"
+                ],
+                "sys_coolex_gamedata_lolm_hdr": [
+                    "com.tencent.lolm"
+                ],
+                "sys_coolex_gamedata_speedmobile_hdr": [
+                    "com.tencent.tmgp.speedmobile"
+                ],
+                "sys_coolex_gamedata_guangyu_hdr": [
+                    "com.netease.sky.nearme.gamecenter",
+                    "com.netease.sky"
+                ],
+                "sys_coolex_gamedata_cf_hdr": [
+                    "com.tencent.tmgp.cf"
+                ],
+                "sys_coolex_gamedata_mobilelegends_hdr": [
+                    "com.mobile.legends",
+                    "com.mobile.legends:UnityKillsMe"
+                ],
+                "sys_coolex_gamedata_wildrift_hdr": [
+                    "com.riotgames.league.wildrift"
+                ],
+                "sys_coolex_gamedata_ig_hdr": [
+                    "com.tencent.ig"
+                ],
+                "sys_coolex_gamedata_nshm_hdr": [
+                    "com.netease.nshm.nearme.gamecenter",
+                    "com.netease.nshm"
+                ],
+                "sys_coolex_gamedata_kihan_hdr":[
+                    "com.tencent.KiHan"
+                ],
+                "sys_coolex_gamedata_dwrg_hdr":[
+                    "com.netease.dwrg.nearme.gamecenter",
+                    "com.netease.dwrg"
+                ],
+                "sys_coolex_gamedata_acer_hdr":[
+                    "com.netease.aceracer.nearme.gamecenter",
+                    "com.netease.aceracer",
+                    "com.tencent.tmgp.gnyx"
+                ],
+                "sys_coolex_gamedata_gnyx_hdr":[
+                    "com.tencent.tmgp.gnyx"
+                ],
+                "sys_coolex_gamedata_uam_hdr":[
+                    "com.tencent.mf.uam"
+                ],
+                "sys_coolex_gamedata_party_hdr":[
+                    "com.netease.party",
+                    "com.netease.party.nearme.gamecenter"
+                ],
+                "sys_coolex_gamedata_letsgo_hdr":[
+                    "com.tencent.letsgo"
+                ],
+                "sys_coolex_gamedata_mrzh_hdr":[
+                    "com.netease.mrzh",
+                    "com.netease.mrzh.nearme.gamecenter"
+                ],
+                "sys_coolex_gamedata_bh3_hdr":[
+                    "com.miHoYo.enterprise.NGHSoD",
+                    "com.miHoYo.bh3.nearme.gamecenter",
+                    "com.miHoYo.bh3.bilibili"
+                ],
+                "sys_coolex_gamedata_mrfz_hdr":[
+                    "com.hypergryph.arknights"
+                ],
+                "sys_coolex_gamedata_kybc_hdr":[
+                    "com.aligames.kuang.kybc",
+                    "com.aligames.kuang.kybc.nearme.gamecenter"
+                ],
+                "sys_coolex_gamedata_wepop_hdr":[
+                    "com.tencent.tmgp.WePop"
+                ],
+                "sys_coolex_gamedata_sdsbq_hdr":[
+                    "com.netease.sdsbq",
+                    "com.netease.sdsbq.nearme.gamecenter"
+                ],
+                "sys_coolex_gamedata_j1game_hdr":[
+                    "com.hermes.j1game",
+                    "com.hermes.j1game.nearme.gamecenter"
+                ],
+                "sys_coolex_gamedata_common_memc": [
+                    "com.tencent.tmgp.pubgmhd",
+                    "com.tencent.tmgp.projectg",
+                    "com.tencent.tmgp.sgame",
+                    "com.tencent.tmgp.sgamece",
+                    "com.tencent.tmgp.speedmobile",
+                    "com.tencent.tmgp.cf",
+                    "com.tencent.ig",
+                    "com.pubg.krmobile",
+                    "com.vng.pubgmobile",
+                    "com.rekoo.pubgm",
+                    "com.tencent.lolm",
+                    "com.netease.aceracer.nearme.gamecenter",
+                    "com.netease.aceracer",
+                    "com.tencent.tmgp.gnyx",
+                    "com.netease.party.nearme.gamecenter",
+                    "com.netease.party",
+                    "com.tencent.letsgo",
+                    "com.tencent.KiHan",
+                    "skydragon.honorofkings",
+                    "com.levelinfinite.sgameGlobal",
+                    "com.levelinfinite.sgameGlobal.midaspay",
+                    "com.levelinfinite.sgameGlobal.kbinstaller",
+                    "com.ngame.allstar.eu",
+                    "com.garena.game.kgtw",
+                    "com.tencent.tmgp.dnf",
+                    "com.p5x.nearme.gamecenter",
+                    "com.pwrd.persona5x.laohu"
+                ],
+                "sys_coolex_gamedata_common_osr2d": [
+                    "com.tencent.tmgp.pubgmhd",
+                    "com.tencent.tmgp.projectg",
+                    "com.tencent.tmgp.sgame",
+                    "com.tencent.tmgp.sgamece",
+                    "com.tencent.tmgp.speedmobile",
+                    "com.tencent.tmgp.cf",
+                    "com.tencent.ig",
+                    "com.pubg.krmobile",
+                    "com.vng.pubgmobile",
+                    "com.rekoo.pubgm",
+                    "com.tencent.lolm",
+                    "com.miHoYo.Yuanshen",
+                    "com.miHoYo.ys.bilibili",
+                    "com.miHoYo.GenshinImpact",
+                    "com.miHoYo.ys.mi",
+                    "com.miHoYo.yuanshencb",
+                    "com.miHoYo.hkrpg",
+                    "com.miHoYo.hkrpg.bilibili",
+                    "com.HoYoverse.hkrpgoversea",
+                    "com.miHoYo.hkrpgcb",
+                    "com.netease.aceracer.nearme.gamecenter",
+                    "com.netease.aceracer",
+                    "com.tencent.tmgp.gnyx",
+                    "com.netease.party.nearme.gamecenter",
+                    "com.netease.party",
+                    "com.tencent.letsgo",
+                    "com.tencent.KiHan",
+                    "skydragon.honorofkings",
+                    "com.levelinfinite.sgameGlobal",
+                    "com.levelinfinite.sgameGlobal.midaspay",
+                    "com.levelinfinite.sgameGlobal.kbinstaller",
+                    "com.ngame.allstar.eu",
+                    "com.garena.game.kgtw",
+                    "com.tencent.tmgp.dnf",
+                    "com.p5x.nearme.gamecenter",
+                    "com.pwrd.persona5x.laohu"
+                ],
+                "sys_coolex_gamedata_pubg_memc": [
+                    "com.tencent.tmgp.pubgmhd",
+                    "com.tencent.tmgp.projectg"
+                ],
+                "sys_coolex_gamedata_wzry_memc": [
+                    "com.tencent.tmgp.sgame",
+                    "com.tencent.tmgp.sgamece"
+                ],
+                "sys_coolex_gamedata_speedmobile_memc": [
+                    "com.tencent.tmgp.speedmobile"
+                ],
+                "sys_coolex_gamedata_cf_memc": [
+                    "com.tencent.tmgp.cf"
+                ],
+                "sys_coolex_gamedata_ig_memc": [
+                     "com.tencent.ig",
+                     "com.pubg.krmobile",
+                     "com.vng.pubgmobile",
+                     "com.rekoo.pubgm"
+                ],
+                "sys_coolex_gamedata_lolm_memc": [
+                    "com.tencent.lolm"
+                ],
+                "sys_coolex_gamedata_aceracer_memc": [
+                    "com.netease.aceracer.nearme.gamecenter",
+                    "com.netease.aceracer"
+                ],
+                "sys_coolex_gamedata_gnyx_memc": [
+                    "com.tencent.tmgp.gnyx"
+                ],
+                "sys_coolex_gamedata_party_memc": [
+                    "com.netease.party.nearme.gamecenter",
+                    "com.netease.party"
+                ],
+                "sys_coolex_gamedata_letsgo_memc": [
+                    "com.tencent.letsgo"
+                ],
+                "sys_coolex_gamedata_kihan_memc": [
+                    "com.tencent.KiHan"
+                ],
+                "sys_coolex_gamedata_wzryi_memc": [
+                    "skydragon.honorofkings",
+                    "com.levelinfinite.sgameGlobal",
+                    "com.levelinfinite.sgameGlobal.midaspay",
+                    "com.levelinfinite.sgameGlobal.kbinstaller"
+                ],
+                "sys_coolex_gamedata_allstar_memc": [
+                    "com.ngame.allstar.eu",
+                    "com.garena.game.kgtw"
+                ],
+                "sys_coolex_gamedata_dnf_memc": [
+                    "com.tencent.tmgp.dnf"
+                ],
+                "sys_coolex_gamedata_p5x_memc": [
+                    "com.p5x.nearme.gamecenter",
+                    "com.pwrd.persona5x.laohu"
+                ]
+            }
+        },
+        "GameGpuControlPanel": {
+            "preload_data": {
+                "qcom_private_data": [
+                    {
+                        "pkgname": "com.miHoYo.hkrpg",
+                        "content": "CqMFCp4FCip0eXBlLmdvb2dsZWFwaXMuY29tL0dyYXBoaWNzUHJvZmlsZVByaXZhdGUS7wTJBUk6dZSLXq8Lnc1Ys4+k3GWyra/BYwzZAWJyGE5mP4bKGaKuvbGm2pFXyrEA1BZtAZq/nYNS7sVk3EyriUatYY37tbc6NZhBdjz2ICtOs6v6Lq9ZurplpGbBi6n6jXnFh/TVW01v0RZRbO6ajcK4medTIsEFICrh6tWe3J9J6wISZ0pfQxYVGoWduDwzCWiX8ANna7+UAJZ9KgHiqabsOHbcMk2I+Ad+aKOC9E0uYaG5aDn71UGXovt93H7klCwb0Hcx5eJ30w56UOo6WSTC6s6Nu/6wPzPW+ZUPElav6JWhsoJxB4I/TTcaWEe22VXfd3P5VTbJ+qqWqVRKBnGAtzomaRX6lTLO5VNhKZeizeJ68+K91mgG2V09ZBcPaimfgCr/uIL6pc6UCt/sFo4QOBynip2fXfTdZPdWjYZPpVXtkIeMAxXDMYL3VktMSNeKwS/lSqeSaLlnm624/JQjwY2UsQQ4RSDb/kGF5P/Wi86xdSLdEiYru/7YhfbcTeIgBWZDGF4kClGp0KxmHgBnhe4sbV2+gSCyfSQm87WU4idO2SdJpYRISCj08dpTqkvIeWFqtpEJiuOjbtd074lwRMJ7M6atcsUZcVGrZU8vgKWXze2RzD4N0uaPBTFQo+u3j6W0aCWVMUYNH0dxitVu3BYDhQpgtoZsVRgkNBwJ17EhbXFilcFHuEuIwUXw0KbXevmipJ13BdoBXnQaAWBimqYt/LCIpoLIil3tvRTFEmgRmYShmVnCx3XrS6+YOM09r8/Y03V0Au81lS87Z1/Q3tsk8Q/t4yH7ItXI/a/QZ4TRtoIBAtBFw5GLez0OsRgBCoYCCoMCCip0eXBlLmdvb2dsZWFwaXMuY29tL0dyYXBoaWNzUHJvZmlsZVByaXZhdGUS1AHJakkfSpLLbLgEjvRD562zwW39oZjafAf/QVh3ZmIxM+Tg2DAV7t7xo+Bp17o+0jhtMp6VvJhG4shsykuwjmOmTv3t4tBeQphBdjz2ICsCs97JeflqsbVjp3GuibP7gxTLjvbFQUcS8zNyMcbMsoGczI0GAfI6GhyPiztAWPEmtlhCSRROayoVHqqEsQo2HGeA1C1rd4iTI7ZxPxHDroLiKHHVOT7ovlF/f+zDbuNtyHiiJBKYu2Cd/K0qhTq70DhYhCJs+6MhkVkgHynJhPUsGDIyjQ=="
+                    },
+                    {
+                        "pkgname": "com.miHoYo.Nap",
+                        "content": "CtYCCtECCip0eXBlLmdvb2dsZWFwaXMuY29tL0dyYXBoaWNzUHJvZmlsZVByaXZhdGUSogLJHUlCdZSLXq8Lnc1Ys4+k3GWyra/BYwzZAWJyGE5mP4bKGaKuqLq1y5RB/bsDzTBuALWaiYpR9flk61GNhk+lTfaYibYMH/Ag5JJhcXRoo/oI60Is1YcLjWaA1LzwjjPLkajBVk0sjhBZMOrMmsKIxvMtJosOZxit9+uP6YFF9SYFZlhxQiYLN62dpiEpDWCHxzdvboGVO5B9LhnuooORSSyebTboaqnpOfyV5A/cpEzMBw6V9EHW/e533zTqgnAP3XdyuuR/jwosR+oKBjCo4oWU99PtFwbB+I8VFUek8qaLuopPI58iTi0hVGCr/UrMaWHEKVCetvb7W439UhnxhTwqJ1Se1Qj4UtmSG6fN94k6quz5gzRWlp++5K2+9bQLxRgB"
+                    }
+                ]
+            }
+        }
+    }
+}
